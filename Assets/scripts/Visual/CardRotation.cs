@@ -55,8 +55,6 @@ public class CardRotation : MonoBehaviour {
                 CardFront.gameObject.SetActive(true);
                 CardBack.gameObject.SetActive(false);
             }
-
         }
-
 	}
 }

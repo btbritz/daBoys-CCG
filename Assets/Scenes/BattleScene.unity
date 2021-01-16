@@ -1750,6 +1750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillCard
       objectReference: {fileID: 0}
+    - target: {fileID: 6614870669556905454, guid: e35c6aa36366e274db1df7ad645ddfcd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6614870669556905455, guid: e35c6aa36366e274db1df7ad645ddfcd, type: 3}
       propertyPath: m_RootOrder
       value: 2

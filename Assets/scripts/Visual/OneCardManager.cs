@@ -71,6 +71,10 @@ public class OneCardManager : MonoBehaviour {
         // 5) Change the card graphic sprite
         CardGraphicImage.sprite = cardAsset.CardImage;
 
+        if (cardAsset.ManaCost != 0) {
+            ManaCostText.text = cardAsset.ManaCost.ToString();
+        }
+
         // Maybe add this back in later - BB
         // if (cardAsset.MaxHealth != 0)
         // {
