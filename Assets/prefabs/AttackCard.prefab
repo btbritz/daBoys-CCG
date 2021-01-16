@@ -1256,8 +1256,6 @@ MonoBehaviour:
   NameText: {fileID: 889354979549110949}
   ManaCostText: {fileID: 889354979811028013}
   DescriptionText: {fileID: 889354979577316230}
-  HealthText: {fileID: 0}
-  AttackText: {fileID: 0}
   CardTopRibbonImage: {fileID: 889354979490436446}
   CardLowRibbonImage: {fileID: 889354978585503257}
   CardGraphicImage: {fileID: 889354979234134745}
