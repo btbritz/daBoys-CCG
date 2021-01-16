@@ -24,8 +24,8 @@ public class CardAsset : ScriptableObject
     public int ManaCost;
 
     [Header("Creature Info")]
-    public int MaxHealth;
-    public int Attack;
+    // public int MaxHealth;
+    // public int Attack;
     public int AttacksForOneTurn = 1;
     public bool Taunt;
     public bool Charge;
