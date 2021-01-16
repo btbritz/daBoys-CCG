@@ -1890,6 +1890,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.12463
       objectReference: {fileID: 0}
+    - target: {fileID: 889354979881681938, guid: 87d0bca867659ce4aa2df1703b7e1762, type: 3}
+      propertyPath: PreviewManager
+      value: 
+      objectReference: {fileID: 889354979894006269}
     - target: {fileID: 889354979881682029, guid: 87d0bca867659ce4aa2df1703b7e1762, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2006,6 +2010,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1312976604467981882, guid: 7428ce5334e68d140a99596d0e594d6d, type: 3}
+      propertyPath: PreviewManager
+      value: 
+      objectReference: {fileID: 7317181167598969235}
+    - target: {fileID: 5752727713381583380, guid: 7428ce5334e68d140a99596d0e594d6d, type: 3}
+      propertyPath: m_Name
+      value: HackCardPreview
+      objectReference: {fileID: 0}
     - target: {fileID: 6300969853487855596, guid: 7428ce5334e68d140a99596d0e594d6d, type: 3}
       propertyPath: m_Color.b
       value: 0.19215687
@@ -2112,6 +2124,17 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0b72dd88c192987409354e6c1d817d11, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7428ce5334e68d140a99596d0e594d6d, type: 3}
+--- !u!114 &7317181167598969235 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1312976604467981882, guid: 7428ce5334e68d140a99596d0e594d6d, type: 3}
+  m_PrefabInstance: {fileID: 7317181167598969234}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea90ef5a04856c4195af593a98c4586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7771277262498180691
 MonoBehaviour:
   m_ObjectHideFlags: 0
