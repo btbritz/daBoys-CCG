@@ -11,8 +11,8 @@ public class OneCardManager : MonoBehaviour {
     public Text NameText;
     public Text ManaCostText;
     public Text DescriptionText;
-    public Text HealthText;
-    public Text AttackText;
+    // public Text HealthText;
+    // public Text AttackText;
     [Header("Image References")]
     public Image CardTopRibbonImage;
     public Image CardLowRibbonImage;
@@ -71,12 +71,13 @@ public class OneCardManager : MonoBehaviour {
         // 5) Change the card graphic sprite
         CardGraphicImage.sprite = cardAsset.CardImage;
 
-        if (cardAsset.MaxHealth != 0)
-        {
-            // this is a creature
-            AttackText.text = cardAsset.Attack.ToString();
-            HealthText.text = cardAsset.MaxHealth.ToString();
-        }
+        // Maybe add this back in later - BB
+        // if (cardAsset.MaxHealth != 0)
+        // {
+        //     // this is a creature
+        //     AttackText.text = cardAsset.Attack.ToString();
+        //     HealthText.text = cardAsset.MaxHealth.ToString();
+        // }
 
         if (PreviewManager != null)
         {
