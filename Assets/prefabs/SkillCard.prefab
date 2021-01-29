@@ -342,7 +342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1378684994037180117
 Transform:
   m_ObjectHideFlags: 0
@@ -1189,7 +1189,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -725588859
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1378684995515442746
@@ -2594,8 +2594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardFront: {fileID: 6614870670546545984}
   CardBack: {fileID: 2842228511630048860}
-  targetFacePoint: {fileID: 0}
-  col: {fileID: 0}
+  targetFacePoint: {fileID: 6614870669232347480}
+  col: {fileID: 6614870669556905454}
 --- !u!114 &6614870669556905360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,7 +2634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TurnThisOffWhenPreviewing: {fileID: 6614870668900363883}
   TargetPosition: {x: 0, y: 2.5, z: 0}
-  TargetScale: 2.5
+  TargetScale: 2
   previewGameObject: {fileID: 1378684994037180118}
   ActivateInAwake: 1
 --- !u!1 &6614870669625366142
@@ -2769,7 +2769,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1965790627
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &6614870669965554944

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BackgroundMusic
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Background
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 352988457
+    locked: 0
+  - name: Cards
+    uniqueID: 2329176669
+    locked: 0
+  - name: Player/Enemies
+    uniqueID: 1039550219
+    locked: 0
+  - name: AboveEverything
+    uniqueID: 3569378437
     locked: 0
