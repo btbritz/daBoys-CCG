@@ -7,16 +7,19 @@ public class ManaPoolVisual : MonoBehaviour {
 
     public int TestFullSkillPoints;
     public int TestTotalSkillPointsThisTurn;
+    
+    public Image[] SkillPoints;
+    public Text ProgressText;
 
     private int totalSkillPoints;
-    public int TotalSkillPoints
-    {
-        get{ return totalSkillPoints; }
+    public int TotalSkillPoints {
+        get { return totalSkillPoints; }
 
         set
         {
             //Debug.Log("Changed total mana to: " + value);
 
+            // max/min setter
             if (value > SkillPoints.Length)
                 totalSkillPoints = SkillPoints.Length;
             else if (value < 0)
@@ -24,15 +27,17 @@ public class ManaPoolVisual : MonoBehaviour {
             else
                 totalSkillPoints = value;
 
+            // Coloring
             for (int i = 0; i < SkillPoints.Length; i++)
             {
                 if (i < totalSkillPoints)
                 {
-                    if (SkillPoints[i].color == Color.clear)
+                    if (SkillPoints[i].color == Color.clear) {
                         SkillPoints[i].color = Color.gray;
-                }
-                else
+                    }
+                } else {
                     SkillPoints[i].color = Color.clear;
+                }
             }
 
             // update the text
@@ -69,9 +74,6 @@ public class ManaPoolVisual : MonoBehaviour {
 
         }
     }
-    public Image[] SkillPoints;
-    public Text ProgressText;
-
     
     void Update()
     {
